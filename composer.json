@@ -1,0 +1,26 @@
+{
+    "name": "ripon/browser-detect",
+    "description": "Detect browser, API clients, and environment emojis in Laravel 12",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BrowserDetect\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrowserDetect\\BrowserDetectServiceProvider"
+            ],
+            "aliases": {
+                "BrowserDetect": "BrowserDetect\\BrowserDetect",
+                "EnvironmentEmoji": "BrowserDetect\\EnvironmentEmoji"
+            }
+        }
+    }
+}
