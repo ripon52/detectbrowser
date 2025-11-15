@@ -1,5 +1,5 @@
 {
-    "name": "ripon/browser-detect",
+    "name": "ripon52/browser-detect",
     "description": "Detect browser, API clients, and environment emojis in Laravel 12",
     "type": "library",
     "license": "MIT",
